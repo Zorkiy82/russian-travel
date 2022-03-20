@@ -1,7 +1,31 @@
 .places {
   display: grid;
-  width: calc(984/1280*100%);
+  width: calc(984 / 1280 * 100%);
   padding-top: 92px;
   padding-bottom: 92px;
   row-gap: 80px;
+}
+
+@media screen and (max-width: 1024px) {
+  .places {
+    width: calc(928 / 1024 * 100%);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    width: calc(720 / 768 * 100%);
+    padding-top: 88px;
+    padding-bottom: 90px;
+    row-gap: 73px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .places {
+    width: 100%;
+    padding-top: 64px;
+    padding-bottom: 66px;
+    row-gap: 50px;
+  }
 }

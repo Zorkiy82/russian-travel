@@ -8,3 +8,25 @@
 
 
 }
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    width: calc(928/1024*100%);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    width: calc(720/768*100%);
+    padding-top: 88px;
+  }
+}
+
+@media screen and (max-width: 753px) {
+  .footer {
+    width: calc(100% - 16*2);
+    flex-direction: column;
+    justify-content: start;
+    padding-top: 64px;
+  }
+}

@@ -4,3 +4,8 @@
   width: calc(1184/1280*100%);
  }
 
+ @media screen and (max-width: 1024px) {
+  .cover {
+    width: 100%;
+  }
+}

@@ -4,3 +4,11 @@
   padding: 0;
   list-style-type: none;
 }
+
+@media screen and (max-width: 753px) {
+  .footer__links {
+    flex-direction: column;
+    justify-content: start;
+    margin-bottom: 32px;
+  }
+}
