@@ -1,0 +1,7 @@
+.cover {
+  display: block;
+  width: calc(1184/1280*100%);
+  box-sizing: border-box;
+  padding-top: 92px;
+}
+

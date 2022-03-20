@@ -1,7 +1,6 @@
 .places {
   display: grid;
+  width: calc(984/1280*100%);
   padding-top: 92px;
-  padding-left: 148px;
-  padding-right: 148px;
   row-gap: 80px;
 }
