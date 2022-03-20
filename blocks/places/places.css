@@ -2,5 +2,6 @@
   display: grid;
   width: calc(984/1280*100%);
   padding-top: 92px;
+  padding-bottom: 92px;
   row-gap: 80px;
 }

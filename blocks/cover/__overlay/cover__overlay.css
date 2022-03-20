@@ -7,4 +7,10 @@
   right: 0;
   background: #2a2c2f;
   opacity: 0.3;
+  transition: opacity 0.15s;
+
+}
+
+.cover:hover .cover__overlay {
+  opacity: 0.8;
 }
