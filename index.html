@@ -10,7 +10,7 @@
     <header class="header">
       <div class="header__logo"></div>
       <nav class="header__lang-links">
-        <a class="header__lang-link page__link" href="#">Ru</a>
+        <a class="header__lang-link page__link header__lang-link_underline" href="#">Ru</a>
         <a class="header__lang-link page__link" href="#">En</a>
       </nav>
     </header>
@@ -63,65 +63,68 @@
         </ul>
       </section>
 
-      <section class="photo-grid">
+      <section class="photo-grid" aria-label="Галерея картинок">
         <img
           class="photo-grid__item"
-          src="./images/001 photo-grid-train.jpg"
+          src="./images/001-photo-grid-train.jpg"
           alt="Поезд"
         />
+
         <img
           class="photo-grid__item"
-          src="./images/002 photo-grid-atharva-tulsi.jpg"
+          src="./images/002-photo-grid-atharva-tulsi.jpg"
           alt="Атхарва тулси"
         />
+
         <img
           class="photo-grid__item"
-          src="./images/003 photo-grid-tuman.jpg"
+          src="./images/003-photo-grid-tuman.jpg"
           alt="Туман"
         />
+
         <img
           class="photo-grid__item"
-          src="./images/004 photo-grid-sochi.jpg"
+          src="./images/004-photo-grid-sochi.jpg"
           alt="Сочи"
         />
         <img
           class="photo-grid__item"
-          src="./images/005 photo-grid-arisa.jpg"
+          src="./images/005-photo-grid-arisa.jpg"
           alt="Ариса"
         />
         <img
           class="photo-grid__item"
-          src="./images/006 photo-grid-baikal.jpg"
+          src="./images/006-photo-grid-baikal.jpg"
           alt="Байкал"
         />
         <img
           class="photo-grid__item"
-          src="./images/007 photo-grid-elbrus.jpg"
+          src="./images/007-photo-grid-elbrus.jpg"
           alt="Эльбрус"
         />
         <img
           class="photo-grid__item"
-          src="./images/008 photo-grid-kondratiev.jpg"
+          src="./images/008-photo-grid-kondratiev.jpg"
           alt="Кондратьев"
         />
         <img
           class="photo-grid__item"
-          src="./images/009 photo-grid-kamchatka-1.jpg"
+          src="./images/009-photo-grid-kamchatka-1.jpg"
           alt="Камчатка"
         />
         <img
           class="photo-grid__item"
-          src="./images/010 photo-grid-kamchatka-2.jpg"
+          src="./images/010-photo-grid-kamchatka-2.jpg"
           alt="Камчатка 2"
         />
         <img
           class="photo-grid__item"
-          src="./images/011 photo-grid-baikal-2.jpg"
+          src="./images/011-photo-grid-baikal-2.jpg"
           alt="Байкал 2"
         />
         <img
           class="photo-grid__item"
-          src="./images/012 photo-grid-ergaki.jpg"
+          src="./images/012-photo-grid-ergaki.jpg"
           alt="Ергаки"
         />
       </section>
@@ -310,10 +313,12 @@
       <section class="cover">
         <img
           class="cover__background"
-          src="./images/__background.jpg"
+          src="./images/cover-trains.jpg"
           alt="Ж/Д станция"
         />
+
         <div class="cover__overlay"></div>
+
         <div class="cover__text">
           <h2 class="cover__title">До Байкала</h2>
           <h2 class="cover__title">«на собаках»</h2>
@@ -329,6 +334,29 @@
         ></a>
       </section>
     </main>
-    <footer class="footer"></footer>
+
+    <footer class="footer">
+      <nav>
+        <ul class="footer__links">
+          <li>
+            <a class="footer__link page__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
+          </li>
+          <li>
+            <a class="footer__link page__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
+          </li>
+          <li>
+            <a class="footer__link page__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
+          </li>
+          <li>
+            <a class="footer__link page__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
+          </li>
+          <li>
+            <a class="footer__link page__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
+          </li>
+        </ul>
+      </nav>
+
+      <p class="footer__copyright">&COPY; 2022. Александр Огородников</p>
+    </footer>
   </body>
 </html>
