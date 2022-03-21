@@ -1,8 +1,8 @@
 .lead__image {
-display: block;
-width: 100%;
-object-fit: cover;
-padding-top: 64px;
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  padding-top: 64px;
 }
 
 @media screen and (max-width: 1024px) {
