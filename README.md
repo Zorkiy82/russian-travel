@@ -10,6 +10,4 @@
 **3. БЭМ**
 **4. Адаптивная верстка**
 
-**GitHub Pages**
-
-- [Смотреть на GitHub Pages](https://zorkiy82.github.io/russian-travel/)
+## Ссылка на проект: [Смотреть на GitHub Pages](https://zorkiy82.github.io/russian-travel/)
