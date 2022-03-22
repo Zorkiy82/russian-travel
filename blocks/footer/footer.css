@@ -2,6 +2,7 @@
   display: flex;
   width: calc(1184 / 1280 * 100%);
   justify-content: space-between;
+  align-items: flex-end;
   box-sizing: border-box;
   padding-top: 92px;
   padding-bottom: 24px;
@@ -25,6 +26,7 @@
     width: calc(100% - (16px * 2));
     flex-direction: column;
     justify-content: start;
+    align-items: flex-start;
     padding-top: 64px;
   }
 }
