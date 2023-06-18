@@ -10,4 +10,6 @@ __2. CSS__
 __3. БЭМ__
 __4. Адаптивная верстка__
 
-## Ссылка на проект: [Смотреть на GitHub Pages](https://zorkiy82.github.io/russian-travel/)
+## Демо сайт: 
+
+[https://zorkiy82.github.io/russian-travel](https://zorkiy82.github.io/russian-travel/)
